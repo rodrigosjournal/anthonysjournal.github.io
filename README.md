@@ -1,1 +1,0 @@
-# anthonysjournal.github.io
