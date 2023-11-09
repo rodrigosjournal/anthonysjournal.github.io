@@ -2,74 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Front-end Development">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Anthony Rodrigo Flores">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Add more specific meta tags if needed (e.g., Open Graph and Twitter Card) -->
-
-    <title>Your Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <!-- Link to an external CSS file here if available -->
-    <style>
-        /* Add any additional CSS styles here */
-        body {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        header {
-            width: 100%;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
+    <title>Your Title</title>
+    <!-- Link to Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div class="content">
-            <!-- Content of your web page goes here -->
-            <h1>Anthony's Journal</h1>
-            <p>As a senior student majoring in economics at the University of Amsterdam, I am enthusiastic about pursuing expertise in front-end development and the visualization of financial and economic data.</p>
-        </div>
+
+<style> 
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+            /* Set the font weight to 300 */
+            font-weight: 300;
+            font-size: 5em; /* Set your desired font size */
+}
+
+ /* Media query for smaller screens */
+ @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 50px; /* Adjust the font size for smaller screens */
+            }
+        }
+
+p {
+    font-family: 'Chakra Petch', sans-serif;
+            /* Set the font weight to 300 */
+            font-weight: 300;
+            font-size: 2em; /* Set your desired font size */
+}
+
+</style>
+
+
+
+<h1>My Data Visualization Journal</h1>
+
+<p>As a senior student majoring in economics at the University of Amsterdam,  I am enthusiastic about pursuing expertise in front-end development and the visualization of financial and economic data.</p> 
+
+    
         <div class="image-container">
             <img
                 src="anthony_rodrigo_flores.jpeg"
                 alt="My photo profile"
             >
         </div>
-    </main>
-
-    <footer>
-        <!-- Footer content goes here -->
-        <p>&copy; 2023 Your Website</p>
-    </footer>
-</body>
-</html>
